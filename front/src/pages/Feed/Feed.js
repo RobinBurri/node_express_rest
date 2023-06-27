@@ -121,6 +121,7 @@ class Feed extends Component {
             },
             body: JSON.stringify({
                 title: postData.title,
+                imageUrl: postData.image,
                 content: postData.content,
             }),
         })
